@@ -1,6 +1,4 @@
-# CS6350.002 Big Data Management & Analytics
-# Assignment 2-2: Implementing Naive Bayes Classifier using Spark MapReduce
-# Yoonkyung Lee (yxl240011), Changhui Sun (cxs240024) 
+
 import os, re, subprocess, math
 from pyspark.ml.feature import Tokenizer, StopWordsRemover, CountVectorizer # type: ignore
 from pyspark.ml.linalg import DenseVector # type: ignore
